@@ -1,0 +1,173 @@
+<meta>
+	<info author="Gabriel Camargo" name="Inventario" description="Inventario completo BRP" type="script"></info>
+
+	<script src="Edit.lua" type="server" />
+	<script src="Edit.lua" type="client" />
+
+	<script src="db/Database.lua" type="server" />
+	<script src="S-Inv.lua" type="server" />
+	<script src="dxLib/dxEditBox.lua" type="client" />
+	<script src="C-Inv.lua" type="client" />
+	<script src="S-Loja.lua" type="server" />
+	<script src="C-Loja.lua" type="client" />
+
+	<file src="bag/bag.dff" cache="false" />
+	<file src="bag/bag.txd" cache="false" />
+
+	<file src="font/font.ttf" cache="false" />
+
+	<file src="Img/VisualInvInicial.png" cache="false" />
+	<file src="Img/ActiveInv.png" cache="false" />
+	<file src="Img/cards.png" cache="false" />
+	<file src="Img/key.png" cache="false" />
+	<file src="Img/bag.png" cache="false" />
+	<file src="Img/TelaInv2.png" cache="false" />
+	<file src="Img/LojaVisual.png" cache="false" />
+
+
+
+	<file src="Img/items/0.png" />
+	<file src="Img/items/1.png" />
+	<file src="Img/items/2.png" />
+	<file src="Img/items/3.png" />
+	<file src="Img/items/4.png" />
+	<file src="Img/items/5.png" />
+	<file src="Img/items/6.png" />
+	<file src="Img/items/7.png" />
+	<file src="Img/items/8.png" />
+	<file src="Img/items/9.png" />
+	<file src="Img/items/10.png" />
+	<file src="Img/items/11.png" />
+	<file src="Img/items/12.png" />
+	<file src="Img/items/13.png" />
+	<file src="Img/items/14.png" />
+	<file src="Img/items/15.png" />
+	<file src="Img/items/16.png" />
+	<file src="Img/items/17.png" />
+	<file src="Img/items/18.png" />
+	<file src="Img/items/19.png" />
+	<file src="Img/items/20.png" />
+	<file src="Img/items/21.png" />
+	<file src="Img/items/22.png" />
+	<file src="Img/items/23.png" />
+	<file src="Img/items/24.png" />
+	<file src="Img/items/25.png" />
+	<file src="Img/items/26.png" />
+	<file src="Img/items/27.png" />
+	<file src="Img/items/28.png" />
+	<file src="Img/items/29.png" />
+	<file src="Img/items/30.png" />
+	<file src="Img/items/31.png" />
+	<file src="Img/items/32.png" />
+	<file src="Img/items/33.png" />
+	<file src="Img/items/34.png" />
+	<file src="Img/items/35.png" />
+	<file src="Img/items/36.png" />
+	<file src="Img/items/37.png" />
+	<file src="Img/items/38.png" />
+	<file src="Img/items/39.png" />
+	<file src="Img/items/40.png" />
+	<file src="Img/items/41.png" />
+	<file src="Img/items/42.png" />
+	<file src="Img/items/43.png" />
+	<file src="Img/items/44.png" />
+	<file src="Img/items/45.png" />
+	<file src="Img/items/46.png" />
+	<file src="Img/items/47.png" />
+	<file src="Img/items/48.png" />
+	<file src="Img/items/49.png" />
+	<file src="Img/items/50.png" />
+	<file src="Img/items/51.png" />
+	<file src="Img/items/52.png" />
+	<file src="Img/items/53.png" />
+	<file src="Img/items/54.png" />
+	<file src="Img/items/55.png" />
+	<file src="Img/items/56.png" />
+	<file src="Img/items/57.png" />
+	<file src="Img/items/58.png" />
+	<file src="Img/items/59.png" />
+	<file src="Img/items/60.png" />
+	<file src="Img/items/61.png" />
+	<file src="Img/items/62.png" />
+	<file src="Img/items/63.png" />
+	<file src="Img/items/64.png" />
+	<file src="Img/items/65.png" />
+	<file src="Img/items/66.png" />
+	<file src="Img/items/67.png" />
+	<file src="Img/items/68.png" />
+	<file src="Img/items/69.png" />
+	<file src="Img/items/70.png" />
+	<file src="Img/items/71.png" />
+	<file src="Img/items/72.png" />
+	<file src="Img/items/73.png" />
+	<file src="Img/items/74.png" />
+	<file src="Img/items/75.png" />
+	<file src="Img/items/76.png" />
+	<file src="Img/items/77.png" />
+	<file src="Img/items/78.png" />
+	<file src="Img/items/79.png" />
+	<file src="Img/items/80.png" />
+	<file src="Img/items/81.png" />
+	<file src="Img/items/82.png" />
+	<file src="Img/items/83.png" />
+	<file src="Img/items/84.png" />
+	<file src="Img/items/85.png" />
+	<file src="Img/items/86.png" />
+	<file src="Img/items/87.png" />
+	<file src="Img/items/88.png" />
+	<file src="Img/items/89.png" />
+	<file src="Img/items/90.png" />
+	<file src="Img/items/91.png" />
+	<file src="Img/items/93.png" />
+	<file src="Img/items/94.png" />
+	<file src="Img/items/95.png" />
+	<file src="Img/items/96.png" />
+	<file src="Img/items/97.png" />
+	<file src="Img/items/98.png" />
+	<file src="Img/items/99.png" />
+	<file src="Img/items/100.png" />
+	<file src="Img/items/101.png" />
+	<file src="Img/items/102.png" />
+	<file src="Img/items/103.png" />
+	<file src="Img/items/104.png" />
+	<file src="Img/items/105.png" />
+	<file src="Img/items/106.png" />
+	<file src="Img/items/107.png" />
+	<file src="Img/items/108.png" />
+	<file src="Img/items/109.png" />
+	<file src="Img/items/110.png" />
+	<file src="Img/items/111.png" />
+	<file src="Img/items/112.png" />
+	<file src="Img/items/113.png" />
+	<file src="Img/items/114.png" />
+	<file src="Img/items/115.png" />
+	<file src="Img/items/116.png" />
+	<file src="Img/items/117.png" />
+	<file src="Img/items/118.png" />
+	<file src="Img/items/119.png" />
+	<file src="Img/items/120.png" />
+	<file src="Img/items/121.png" />
+	<file src="Img/items/122.png" />
+	<file src="Img/items/123.png" />
+	<file src="Img/items/124.png" />
+	<file src="Img/items/125.png" />
+	<file src="Img/items/126.png" />
+	<file src="Img/items/127.png" />
+	<file src="Img/items/128.png" />
+	<file src="Img/items/129.png" />
+	<file src="Img/items/130.png" />
+	<file src="Img/items/131.png" />
+	<file src="Img/items/132.png" />
+	<file src="Img/items/133.png" />
+	<file src="Img/items/134.png" />
+	<file src="Img/items/135.png" />
+	<file src="Img/items/136.png" />
+	<file src="Img/items/137.png" />
+	<file src="Img/items/138.png" />
+	<file src="Img/items/139.png" />
+	<file src="Img/items/140.png" />
+	<file src="Img/items/141.png" />
+	<file src="Img/items/142.png" />
+ 	<file src="Img/items/143.png" />
+	<file src="Img/items/144.png" />
+</meta>
